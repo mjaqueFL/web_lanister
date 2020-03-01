@@ -11,16 +11,15 @@
 
 /*Estylo Principal  layout Web*/
 html{
-    display: contents;
+
 }
 /*Estilo body*/
 body{
-
     height: auto;
+    width:auto;
     background-image: url("../media/imagenes/escudo-lannister-juego-de-tronos-5303ce24571c6.jpg");
     background-size: cover;
     margin:0 auto;
-
 }
 
 /*Estilo Barra Navegacion*/
@@ -29,19 +28,20 @@ nav{
 
 
 }
+
+
+
 /*Contenido*/
+.fondoInicio{
+    background-color: black;
+}
 section
 {
     color: white;
 
 }
 /*Pie*/
-footer
-{
-    color: white;
-    width: 100%;
-    postion: fixed;
-}
+
 
 /*Stylo Página Inicio */
 
@@ -49,6 +49,7 @@ footer
 
 a{
     font-family: got;
+    font-size: 10px;
     color: #8a9597;
 }
 
@@ -66,7 +67,7 @@ h2{
 p.intro{
     padding-top: 2px;
     font-style: "Palatino";
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
 }
 p.intro::first-letter{
@@ -84,6 +85,7 @@ p.intro::first-letter{
 .pie
 {
     font-family: got;
+    font-size: 15px;
       /*letra con bordes*/
      -webkit-text-fill-color: #efb810;;
      -webkit-text-stroke: 1px #a00505;
@@ -92,10 +94,20 @@ p.intro::first-letter{
 }
 
 
+/*Personajes*/
 
+h6
+{
+ color:black;
+}
 /*Estilos Aviso Legal,Cookies y Privacidad*/
+
 .ng-binding{
     font-family: none;
     text-decoration-color: none;
     text-decoration: none;
+    font-size: 15px;
 }
+
+.pieLink{align-items: center;
+padding:15px 20px}

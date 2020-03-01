@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="bg-dark">
 
 <head>
     <meta charset="UTF-8">
     <title>Casa Lannister</title>
     <meta name=»description»
         content="Bienvenido/a a la casa de los reyes del reino de las Rocas.Recuerda,Un Lannister siempre paga sus deudas " />
-    <meta name="author" content="Manuel Antonio De La O Pérez">
+    <meta name="author" content="Manuel Antonio De La O Pérez" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="media/imagenes/icono.png" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -15,46 +15,41 @@
 
 <body>
 
-    <!-- Cabecera con barra navegacion y logo-->
-    <header>
-        <div class="row featurette m-0" style="background-color:#262626">
-            <div class="col-md-12" style="text-align: center">
-                <img class="img-fluid" src="media/imagenes/cabecera.png" alt="Logo de la casa Lannister, el león que representa la casa y el nombre" title="Logo de la casa Lannister, el león que representa la casa y el nombre">
-            </div>
-        </div>
-        </div>
-    </header>
 
     <!--Menu Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark  " style="background-color:#262626">
-        <a class="navbar-brand bg-light" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class="navbar-nav ">
-                <li class="nav-item active">
-                    <a class="nav-link disabled" class="EnlaceTronos" href="#">Inicio<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" class="EnlaceTronos" href="#">Historia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" class="EnlaceTronos" href="#">Personajes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"  class="EnlaceTronos" href="#">Fans Club</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top m-0 p-0" >
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="#">
+                <img class=" w-50" src="media/imagenes/Sin%20título-2.png" alt="sombra leon con los colores amarillo y rojo con el nombre de la casa Lannister">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link " class="EnlaceTronos" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" class="EnlaceTronos" href="#">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" class="EnlaceTronos" href="paginas/Personajes.html">Personajes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  class="EnlaceTronos" href="#">Fans Club</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <!--Contenido Principal-->
-    <section class="container py-3">
+
+    <section class="container" class="fondoInicio">
 
         <!--Carousel seleccion imagens con vinculos -->
-        <div id="carouselExampleIndicators" class="carousel slide my-2" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide  p-0 m-0" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -62,16 +57,16 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item imgnormalizada active">
                     <a href="#"><img class="d-block w-100" src="media/imagenes/imgMenu1.jpg" alt="Imagen de Tywin Lannister sentado en el trono de hierro" title="Imagen de Tywin Lannister sentado en el trono de hierro"></a>
                 </div>
-                <div class="carousel-item">
-                    <a href="#"><img class="d-block w-100" src="media/imagenes/imgMenu2.jpg" alt="Imagen de Cersei Lannister" title="Imagen de Cersei Lannister"></a>
+                <div class="carousel-item imgnormalizada">
+                    <a href="paginas/Personajes.html"><img class="d-block w-100" src="media/imagenes/imgMenu2.jpg" alt="Imagen de Cersei Lannister" title="Imagen de Cersei Lannister"></a>
                 </div>
-                <div class="carousel-item">
-                    <a href="#"><img class="d-block w-100" src="media/imagenes/imgMenu3.jpg" alt="Imagen de Jaime Lannister" title="Imagen de Jaime Lannister"></a>
+                <div class="carousel-item imgnormalizada">
+                    <a href=""><img class="d-block w-100" src="media/imagenes/imgMenu3.jpg" alt="Imagen de Jaime Lannister" title="Imagen de Jaime Lannister"></a>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item imgnormalizada">
                     <a href="index.html" ><img class="d-block w-100" src="media/imagenes/imgMenu4.jpg" alt="Imagen de Tyrion Lannister" title="Imagen de Tyrion Lannister"></a>
                 </div>
             </div>
@@ -88,16 +83,16 @@
 
         <div class="row featurette py-3" id="lado1" style="background-color:#262626">
             <!--para pantalla pequeña ocupa 12 por el col, a partir de mediana ocupa 8-->
-            <div class="col col-12 col-md-7 p-4">
+            <div class="col col-12 col-md-7">
                 <!--class="w-100" ocupa el anchoo del contenido-->
 
-                <video height="315" class="w-100 " controls>
+                <video height="315" class="w-100" controls>
                     <source src="media/video/House%20Lannister%20Tribute%20%20%20Hear%20Me%20Roar.mp4" type="video/mp4" >
                 </video>
 
                 <span>Banda Sonora Lannister (Serie HBO).</span>
             </div>
-            <div class="col col-12 col-md-5 p-3">
+            <div class="col col-12 col-md-5 p-4">
                 <h2>¡Escucha el Rugido!</h2>
                 <p class="intro">
                     Bienvenido/a a la familia Lannister, la más rica y poderosa de Los Siete Reinos.
@@ -109,18 +104,21 @@
 
     <!--Píe de Página-->
 
-    <footer class="text-center footer-style p-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 footer-col">
-                    <a href="paginas/aviso_legal.html" class="pie" class="EnlaceTronos">Aviso Legal</a>
-                </div>
-                <div class="col-md-4 footer-col">
-                    <a href="paginas/cookies.html" class="pie" class="EnlaceTronos" >Politica de cookies</a>
-                </div>
-                <div class="col-md-4 footer-col">
-                    <a href="paginas/privacidad.html" class="pie" class="EnlaceTronos">Politica de Privacidad</a>
-                </div>
+    <footer class="container-fluid bg-dark " >
+
+        <div class="row" >
+            <div class="col-md-3 footer-col py-3" >
+                <a href="paginas/aviso_legal.html" class="pie">Aviso Legal</a>
+            </div>
+            <div class="col-md-3 footer-col py-3">
+                <a href="paginas/cookies.html" class="pie"class="EnlaceTronos" >Politica de cookies</a>
+            </div>
+            <div class="col-md-3 footer-col py-3">
+                <a href="paginas/privacidad.html" class="pie" >Politica de Privacidad</a>
+            </div>
+
+            <div class="col-md-3 footer-col py-3">
+                <a href="paginas/privacidad.html" class="pie" >Licencia de Imagenes</a>
             </div>
         </div>
     </footer>

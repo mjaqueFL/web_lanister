@@ -49,7 +49,7 @@ section
 
 a{
     font-family: got;
-    font-size: 10px;
+    font-size: 15px;
     color: #8a9597;
 }
 
@@ -67,7 +67,7 @@ h2{
 p.intro{
     padding-top: 2px;
     font-style: "Palatino";
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
 }
 p.intro::first-letter{

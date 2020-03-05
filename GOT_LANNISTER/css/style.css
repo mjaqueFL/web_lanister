@@ -10,9 +10,7 @@
 }
 
 /*Estylo Principal  layout Web*/
-html{
 
-}
 /*Estilo body*/
 body{
     height: auto;
@@ -41,14 +39,7 @@ section
 
 }
 
-form{
-	font-weight:bold;
-}
 
-form button{
-	background-color:#262626!important;
-	border: 1px solid #262626!important;
-}
 /*Pie*/
 
 
@@ -58,7 +49,7 @@ form button{
 
 a{
     font-family: got;
-    font-size: 10px;
+    font-size: 15px;
     color: #8a9597;
 }
 
@@ -76,7 +67,7 @@ h2{
 p.intro{
     padding-top: 2px;
     font-style: "Palatino";
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
 }
 p.intro::first-letter{
@@ -103,7 +94,30 @@ p.intro::first-letter{
 }
 
 
+/*Personajes*/
 
+h6
+{
+ color:black;
+}
+
+
+
+/*Stylo Fans CLub*/
+form{
+    font-weight: bold;
+}
+
+form button{
+     background-color: #262626!important;
+    border: 1px solid #262626!important;
+}
+
+.formu{
+    font-family: none;
+    font-size: 16px;
+    color:whitesmoke;
+}
 /*Estilos Aviso Legal,Cookies y Privacidad*/
 
 .ng-binding{
@@ -115,3 +129,4 @@ p.intro::first-letter{
 
 .pieLink{align-items: center;
 padding:15px 20px}
+

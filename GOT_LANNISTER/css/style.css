@@ -35,7 +35,8 @@ nav{
 }
 section
 {
-    color: white;
+    color: #ffffff;
+
 
 }
 
@@ -61,12 +62,11 @@ h2{
     text-align: center;
     font-weight: bold;
     font-family: got;
-    color:#efb810;
 
 }
 p.intro{
     padding-top: 2px;
-    font-style: "Palatino";
+    font-family: Palatino;
     font-size: 20px;
     text-align: center;
 }
@@ -113,7 +113,7 @@ form button{
     border: 1px solid #262626!important;
 }
 
-.formu{
+#formu{
     font-family: none;
     font-size: 16px;
     color:whitesmoke;

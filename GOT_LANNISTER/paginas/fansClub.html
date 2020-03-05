@@ -16,34 +16,33 @@
 
 <body>
 
-
-    <!--Menu Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top m-0 p-0" >
-        <div class="container-fluid" >
-            <a class="navbar-brand" href="#">
-                <img class=" w-50" src="../media/imagenes/Sin%20título-2.png" alt="sombra leon con los colores amarillo y rojo con el nombre de la casa Lannister">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item" >
-                        <a class="nav-link " class="EnlaceTronos" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" class="EnlaceTronos" href="#">Historia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" class="EnlaceTronos" href="Personajes.html">Personajes</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link"  class="EnlaceTronos" href="fansClub.html">Fans Club<span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
+<!--Menu Navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top m-0 p-0" >
+    <div class="container-fluid" >
+        <a class="navbar-brand" href="#">
+            <img class=" w-50" src="../media/imagenes/Sin%20título-2.png" alt="sombra leon con los colores amarillo y rojo con el nombre de la casa Lannister">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link " class="EnlaceTronos" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" class="EnlaceTronos" href="">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" class="EnlaceTronos" href="Personajes.html">Personajes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  class="EnlaceTronos" href="fansClub.html">Fans Club</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!--Contenido Principal-->
 
@@ -62,18 +61,20 @@
             </div>
 
 			<div class="col-md-6 col-12">
+            <!--Formulario -->
 					<form  name="contactar" action="BienvenidoAlClub.html" onsubmit="return aceptar()">
 					    <div class="form-group">
-						<label for="exampleInputEmail1">Email</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-						<label for="exampleInputPassword1">Contraseña</label>
-						<input type="password" class="form-control" id="exampleInputPassword1">
-						<label for="exampleInputEmail1">IBAN</label>
+                        <label for="nameSurname">Nombre y apellidos</label>
+                        <input type="text" class="form-control" id="nameSurname" aria-describedby="emailHelp">
+						<label for="mail">Email</label>
+						<input type="email" class="form-control" id="mail" aria-describedby="emailHelp">
+						<label for="contrasenia">Contraseña</label>
+						<input type="password" class="form-control" id="contrasenia">
+						<label for="iban" >IBAN</label>
+                            <input type="text" class="form-control" id="iban" aria-describedby="emailHelp" placeholder="ESXXXXXXXXXXXXXXXXXX">
 
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-
-						<label for="exampleInputEmail1">Talla</label>
-					        <select class="custom-select">
+						<label for="talla">Talla</label>
+					        <select class="custom-select" id="talla">
 						<option value="1">S</option>
 						<option value="2">M</option>
 						<option value="3">L</option>
@@ -82,8 +83,7 @@
 					    </select>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1" name="condiciones" value="aceptado" />
-                                <label class="form-check-label"  for="exampleCheck1">Acepta la recogida de información ,consulta los <a class="formu" href="privacidad.html" >Terminos y condiciones</a> para más informacion pulse
-                                    <a class="formu" href="../Documentos/Tratamiento_Datos_Lannister_2DAW.pdf" download="Tratamiento_Datos_Lannister_2DAW.pdf">aquí.</a></label>
+                                <label class="form-check-label"  for="exampleCheck1">Acepta la recogida de información ,consulta los <a id="formu" href="privacidad.html" >Terminos y condiciones</a> para más informacion </label>
                             </div>
                             <button type="submit" class="btn btn-primary">Enviar</button>
 

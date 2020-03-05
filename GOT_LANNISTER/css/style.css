@@ -1,0 +1,132 @@
+/*Fuente juego de tronn*/
+@font-face {
+    font-family: "got";
+    src: url("../fuentes/Game of Thrones.ttf");
+}
+
+@font-face {
+    font-family: "Palatino";
+    src: url("../fuentes/palatino-2.ttf");
+}
+
+/*Estylo Principal  layout Web*/
+
+/*Estilo body*/
+body{
+    height: auto;
+    width:auto;
+    background-image: url("../media/imagenes/escudo-lannister-juego-de-tronos-5303ce24571c6.jpg");
+    background-size: cover;
+    margin:0 auto;
+}
+
+/*Estilo Barra Navegacion*/
+nav{
+    align-items: center;
+
+
+}
+
+
+
+/*Contenido*/
+.fondoInicio{
+    background-color: black;
+}
+section
+{
+    color: white;
+
+}
+
+
+/*Pie*/
+
+
+/*Stylo Página Inicio */
+
+/*a y li [Nav ]*/
+
+a{
+    font-family: got;
+    font-size: 15px;
+    color: #8a9597;
+}
+
+/*Estilo Contenido Section*/
+h2{
+
+    padding:0 15px;
+    padding-top: 35px ;
+    text-align: center;
+    font-weight: bold;
+    font-family: got;
+    color:#efb810;
+
+}
+p.intro{
+    padding-top: 2px;
+    font-style: "Palatino";
+    font-size: 20px;
+    text-align: center;
+}
+p.intro::first-letter{
+    font-size: 4rem;
+}
+#lado1{
+    text-align: center;
+}
+/* Estylo footer */
+.footer-style {
+
+    padding-top: 25px;
+    background-color:#262626;
+}
+.pie
+{
+    font-family: got;
+    font-size: 15px;
+      /*letra con bordes*/
+     -webkit-text-fill-color: #efb810;;
+     -webkit-text-stroke: 1px #a00505;
+     text-decoration: none;/*Sin decoracion*/
+
+}
+
+
+/*Personajes*/
+
+h6
+{
+ color:black;
+}
+
+
+
+/*Stylo Fans CLub*/
+form{
+    font-weight: bold;
+}
+
+form button{
+     background-color: #262626!important;
+    border: 1px solid #262626!important;
+}
+
+.formu{
+    font-family: none;
+    font-size: 16px;
+    color:whitesmoke;
+}
+/*Estilos Aviso Legal,Cookies y Privacidad*/
+
+.ng-binding{
+    font-family: none;
+    text-decoration-color: none;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.pieLink{align-items: center;
+padding:15px 20px}
+

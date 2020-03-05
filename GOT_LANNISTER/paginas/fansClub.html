@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es" class="bg-dark">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Casa Lannister</title>
+    <meta name=»description»
+        content="Bienvenido/a a la casa de los reyes del reino de las Rocas.Recuerda,Un Lannister siempre paga sus deudas " />
+    <meta name="author" content="Álvaro Pérez Díaz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../media/imagenes/icono.png" />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../javascript/check.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+
+    <!--Menu Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top m-0 p-0" >
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="#">
+                <img class=" w-50" src="../media/imagenes/Sin%20título-2.png" alt="sombra leon con los colores amarillo y rojo con el nombre de la casa Lannister">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" >
+                        <a class="nav-link " class="EnlaceTronos" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" class="EnlaceTronos" href="#">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" class="EnlaceTronos" href="Personajes.html">Personajes</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link"  class="EnlaceTronos" href="fansClub.html">Fans Club<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Contenido Principal-->
+
+    <section class="container" class="fondoInicio" >
+		<h2>FANS CLUB</h2></br>
+		<p>
+			Conviértete en un verdadero Lannister y domina los 7 Reinos.</br>
+			Al hacerte socio te enviaremos está camiseta.
+            Coste de alta 12,95€ (I.V.A. Incluido).
+
+		</p>
+		<div class="row">
+			<div class="col-md-6 col-12">
+                <img src="../media/imagenes/imagenFormulario.png" alt="Camiseta con el blasón de la casa Lannister"/>
+
+            </div>
+
+			<div class="col-md-6 col-12">
+					<form  name="contactar" action="BienvenidoAlClub.html" onsubmit="return aceptar()">
+					    <div class="form-group">
+						<label for="exampleInputEmail1">Email</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						<label for="exampleInputPassword1">Contraseña</label>
+						<input type="password" class="form-control" id="exampleInputPassword1">
+						<label for="exampleInputEmail1">IBAN</label>
+
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+						<label for="exampleInputEmail1">Talla</label>
+					        <select class="custom-select">
+						<option value="1">S</option>
+						<option value="2">M</option>
+						<option value="3">L</option>
+						<option value="1">XL</option>
+						<option value="1">XXL</option>
+					    </select>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" name="condiciones" value="aceptado" />
+                                <label class="form-check-label"  for="exampleCheck1">Acepta la recogida de información ,consulta los <a class="formu" href="privacidad.html" >Terminos y condiciones</a> para más informacion pulse
+                                    <a class="formu" href="../Documentos/Tratamiento_Datos_Lannister_2DAW.pdf" download="Tratamiento_Datos_Lannister_2DAW.pdf">aquí.</a></label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+
+                        </div>
+                    </form>
+
+					</div>
+            </div>
+        </div>
+
+
+        </div>
+
+    </section>
+
+    <!--Píe de Página-->
+
+    <footer class="container-fluid bg-dark my-1"  class="text-center footer-style p-2" name="contactar" action="mailto:pruebaenvio@gmail.com"  method="post" onsubmit="return aceptar()">
+
+            <div class="row" >
+                <div class="col-md-3 footer-col p-2" >
+                    <a href="aviso_legal.html" class="pie">Aviso Legal</a>
+                </div>
+                <div class="col-md-3 footer-col p-2">
+                    <a href="cookies.html" class="pie"class="EnlaceTronos" >Politica de cookies</a>
+                </div>
+                <div class="col-md-3 footer-col p-2">
+                    <a href="privacidad.html" class="pie" >Politica de Privacidad</a>
+                </div>
+
+                <div class="col-md-3 footer-col p-2">
+                    <a href="privacidad.html" class="pie" >Licencia de Imagenes</a>
+                </div>
+            </div>
+    </footer>
+
+
+
+
+
+
+    <!--Script Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

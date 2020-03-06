@@ -66,7 +66,13 @@
 					    <div class="form-group">
                         <label for="nameSurname">Nombre y apellidos</label>
                         <input type="text" class="form-control" id="nameSurname" aria-describedby="emailHelp">
-						<label for="mail">Email</label>
+                         <fieldset>
+                         <input type="radio" name="sexo" id="hombre" aria-describedby="emailHelp">
+                         <label for="hombre">Hombre</label>
+                        <input type="radio" name="sexo" id="mujer" aria-describedby="emailHelp">
+                        <label for="mujer">Mujer</label>
+                         </fieldset>
+                         <label for="mail">Email</label>
 						<input type="email" class="form-control" id="mail" aria-describedby="emailHelp">
 						<label for="direccion">Dirección Postal</label>
 						<input type="text" class="form-control" id="direccion" placeholder="Calle/Avenida/ect,número,CP,Poblacion,(Provincia)">

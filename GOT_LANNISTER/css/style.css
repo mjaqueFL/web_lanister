@@ -240,6 +240,40 @@ footer{
     }
 }
 
+@media (max-width:494px){
+    section div#fondoHistoria h2{
+        top:110px;
+    }
+    section div#fondoHistoria p{
+        top:50px;
+        font-size:1.05em;
+    }
+}
+@media (max-width:477px){
+    section div#fondoHistoria h2{
+        font-size:1.4em;
+        top:110px;
+    }
+}
+
+/*El pergamino ocupa el maximo del body y la letra adapta al contenido*/
+@media (max-width:454px){
+   html
+   {
+     max-width:454px ;
+
+   }
+    section div#fondoHistoria{
+        margin: 0 auto;
+    }
+    section div#fondoHistoria h2{
+        font-size:1em;
+    }
+    section div#fondoHistoria p{
+        top:50px;
+        font-size:0.95em;
+    }
+}
 
 
 

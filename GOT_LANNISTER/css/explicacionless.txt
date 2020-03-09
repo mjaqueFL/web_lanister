@@ -1,0 +1,3 @@
+Línea 2 y 3 meter la ruta de las imagenes y las fuentes en variables para reutilizarlas.
+Línea 4 color repetido en los botones del formulario
+Linea 76 anidamiento del section para la pagina Historia

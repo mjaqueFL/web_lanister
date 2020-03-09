@@ -1,0 +1,276 @@
+/*Juan José Merino brito stilo1.less*/
+@rutaImagenes:../media/imagenes;
+@rutaFuentes:../fuentes;
+@colorBoton:#262626;	/*Para los botones del formulario*/
+
+/*Fuente juego de tronn*/
+@font-face {
+    font-family: "got";
+    src: url("@{rutaFuentes}/Game of Thrones.ttf");
+}
+
+@font-face {
+    font-family: "Palatino";
+    src: url("@{rutaFuentes}/palatino-2.ttf");
+}
+
+/*Estilo Principal  layout Web*/
+
+/*Estilo body*/
+body{
+    height:auto;
+    width:auto;
+    background-image: url("@{rutaImagenes}/escudo-lannister-juego-de-tronos-5303ce24571c6.jpg");
+    background-size: cover;
+    margin:0 auto;
+}
+
+/*Estilo Barra Navegacion*/
+nav{
+    align-items: center;
+}
+
+
+
+/*Contenido*/
+.fondoInicio{
+    background-color: black;
+}
+section
+{
+    color: #ffffff;
+}
+
+
+/*Stylo Página Inicio */
+
+/*a y li [Nav ]*/
+
+a{
+    font-family: got;
+    font-size: 0.9375em;
+    color: #8a9597;
+}
+
+/*Estilo Contenido Section*/
+h2{
+
+    padding:35px 0.9375% 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: got;
+
+}
+p.intro{
+    padding-top: 2px;
+    font-family: Palatino;
+    font-size: 1.25em;
+    text-align: center;
+}
+p.intro::first-letter{
+    font-size: 4rem;
+}
+
+/*Estilo sectionHistoria*/
+
+/*Anidamiento del section en la seccion historia*/
+section{
+		div#fondoHistoria{
+		min-height:650px;
+		background-image: url("@{rutaImagenes}/pergamino.png");
+		background-size: cover;
+	}
+	div#fondoHistoria h2{
+		-webkit-text-stroke: 1px #a00505;
+		-webkit-text-fill-color: #efb810;
+		position:relative;
+		top:100px;
+	}
+
+	div#fondoHistoria img{
+		width:18%;
+		position:relative;
+		left:15%;
+	}
+
+	div#fondoHistoria p{
+		font-family: Palatino;
+		-webkit-text-stroke: 0.3px #a00505;
+		color:black;
+		position: relative;
+		bottom:10px;
+		font-size:1.3em;
+		width:70%;
+		margin:0 auto;
+	}
+
+	div#fondoHistoria p span{
+    font-weight: bold;
+	}
+} 
+#lado1{
+    text-align: center;
+}
+/* Estylo footer */
+.footer-style {
+    padding-top: 25px;
+    background-color:@colorBoton;
+}
+.pie
+{
+    font-family: got;
+    font-size: 15px;
+    /*letra con bordes*/
+    -webkit-text-fill-color: #efb810;
+    -webkit-text-stroke: 1px #a00505;
+    text-decoration: none;/*Sin decoracion*/
+    flex-grow:1;
+    min-width: 300px;
+    margin-top:35px;
+    margin-left:30px;
+}
+
+
+/*Personajes*/
+
+h6
+{
+ color:black;
+}
+
+
+/*Stylo Fans CLub*/
+form{
+    font-weight: bold;
+}
+
+form button{
+    background-color: @colorBoton!important;
+    border: 1px solid @colorBoton!important;
+}
+
+#formu{
+    font-family: none;
+    font-size: 0.875em;
+    color:whitesmoke;
+}
+/*Estilos Aviso Legal,Cookies y Privacidad*/
+
+.ng-binding{
+    font-family: none;
+    text-decoration-color: unset;
+    text-decoration: none;
+    font-size: 0.9375em;
+}
+
+.pieLink{
+    align-items: center;
+    padding:15px 20px
+}
+
+/* Estilo footer */
+footer{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+
+/*Medias querys pagina Historia*/
+/*Recolocar img*/
+
+@media (max-width:1199px){
+    section div#fondoHistoria img{
+        left:12%;
+    }
+    section div#fondoHistoria p{
+        font-size:1.2em;
+    }
+}
+/*Recolocar contenido del section*/
+
+@media (max-width:991px){
+    section div#fondoHistoria{
+        height:900px;
+    }
+    section div#fondoHistoria h2{
+        left:8%;
+    }
+
+    section div#fondoHistoria img{
+        top:30px;
+    }
+    section div#fondoHistoria p{
+        top:20px;
+        left:10%;
+        font-size:1.2em;
+    }
+}
+
+@media (max-width:767px){
+    section div#fondoHistoria h2{
+        top:80px;
+        font-size:1.5em;
+    }
+
+    section div#fondoHistoria img{
+        top:25px;
+        left:10%;
+    }
+    section div#fondoHistoria p{
+        font-size:1.2em;
+    }
+}
+
+@media (max-width:560px){
+    section div#fondoHistoria p{
+        font-size:1.1em;
+    }
+}
+
+@media (max-width:509px){
+    /*Subir imagen arriba del titulo*/
+    section div#fondoHistoria img{
+        left:45%;
+    }
+    section div#fondoHistoria h2{
+        top:120px;
+    }
+    section div#fondoHistoria p{
+        top:60px;
+        font-size:1.09em;
+    }
+}
+
+@media (max-width:507px){
+    section div#fondoHistoria p{
+        font-size:1.08em;
+    }
+}
+/*El pergamino ocupa el maximo del body y la letra adapta al contenido*/
+@media (max-width:454px){
+   html
+   {
+     max-width:454px ;
+
+   }
+    section div#fondoHistoria{
+        margin: 0 auto;
+    }
+    section div#fondoHistoria h2{
+        font-size:1em;
+    }
+    section div#fondoHistoria p{
+        top:50px;
+        font-size:0.95em;
+    }
+}
+
+
+
+
+
+
+
+
+

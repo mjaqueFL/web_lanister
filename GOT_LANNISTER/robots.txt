@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: http://2daw.esvirgua.com/14/final/paginas/fansClub.html
 Allow: http://2daw.esvirgua.com/14/final/index.html
+Sitemap: http://2daw.esvirgua.com/14/final/Sitemaps/sitemap.xml

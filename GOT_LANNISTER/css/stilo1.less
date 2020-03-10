@@ -75,47 +75,45 @@ p.intro::first-letter{
 
 /*Anidamiento del section en la seccion historia*/
 section{
-		div#fondoHistoria{
+	div#fondoHistoria{
 		min-height:650px;
 		background-image: url("@{rutaImagenes}/pergamino.png");
 		background-size: cover;
-	}
-	div#fondoHistoria h2{
-		-webkit-text-stroke: 1px #a00505;
-		-webkit-text-fill-color: #efb810;
-		position:relative;
-		top:100px;
-	}
-
-	div#fondoHistoria img{
-		width:18%;
-		position:relative;
-		left:15%;
-	}
-
-	div#fondoHistoria p{
-		font-family: Palatino;
-		-webkit-text-stroke: 0.3px #a00505;
-		color:black;
-		position: relative;
-		bottom:10px;
-		font-size:1.3em;
-		width:70%;
-		margin:0 auto;
-	}
-
-	div#fondoHistoria p span{
-    font-weight: bold;
-	}
+		
+		h2{
+			-webkit-text-stroke: 1px #a00505;
+			-webkit-text-fill-color: #efb810;
+			position:relative;
+			top:100px;
+		}
+		
+		img{
+			width:18%;
+			position:relative;
+			left:15%;
+		}
+		
+		p{
+			font-family: Palatino;
+			-webkit-text-stroke: 0.3px #a00505;
+			color:black;
+			position: relative;
+			bottom:10px;
+			font-size:1.3em;
+			width:70%;
+			margin:0 auto;
+			
+			span{
+				font-weight: bold;
+			}
+		}
+	}	
 } 
-#lado1{
+/*Alinea al centro el contenido de la pagina principal*/
+#ajustePagPrincipal{
     text-align: center;
 }
 /* Estylo footer */
-.footer-style {
-    padding-top: 25px;
-    background-color:@colorBoton;
-}
 .pie
 {
     font-family: got;
@@ -125,7 +123,7 @@ section{
     -webkit-text-stroke: 1px #a00505;
     text-decoration: none;/*Sin decoracion*/
     flex-grow:1;
-    min-width: 300px;
+    min-width: 300px;	/*Para que todos esten debajo del otro al hacerlo más pequeño*/
     margin-top:35px;
     margin-left:30px;
 }
@@ -154,18 +152,13 @@ form button{
     font-size: 0.875em;
     color:whitesmoke;
 }
-/*Estilos Aviso Legal,Cookies y Privacidad*/
+/*Estilos Aviso Legal,Cookies,Privacidad e Imagenes*/
 
 .ng-binding{
     font-family: none;
     text-decoration-color: unset;
     text-decoration: none;
     font-size: 0.9375em;
-}
-
-.pieLink{
-    align-items: center;
-    padding:15px 20px
 }
 
 /* Estilo footer */
